@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Colors : MonoBehaviour
 {
-    // не полноценный синглтон так как сцена одна и не нужно убеждатьс€ что не будет создано более одной ссылки на данный экземпл€р класса 
+    // not a full-fledged singleton since there is only one scene and you do not need to make sure that more than one reference to this instance of the class will not be created
     public static Colors instance { get; private set; }
     [SerializeField] private Color[] setOfColors;
 

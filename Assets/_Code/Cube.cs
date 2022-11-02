@@ -14,8 +14,8 @@ public class Cube : MonoBehaviour
         this.speedMove = speedMove;
         meshRenderer.material.color = Colors.instance.GetRandomColor();
 
-        /*случайный угол поворота для того чтобы получить случайное направление вектора движения
-         * с учетом дистанции до конечной цели 
+        /*random rotation angle to get a random direction of the motion vector
+        * taking into account the distance to the final goal 
          */
         int randomEulerAngle = TRandom.RandomIndex(0, 360);
 
